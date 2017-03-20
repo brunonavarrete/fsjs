@@ -79,7 +79,6 @@ document.getElementById('loadQuote').addEventListener("click", printQuote, false
 		var RGB = [red,green,blue].join(',');
 		return RGB;
 	}
-
 // printQuote()
 	function printQuote(){
 		//variables
@@ -109,7 +108,7 @@ document.getElementById('loadQuote').addEventListener("click", printQuote, false
 			document.body.style.backgroundColor = 'rgb('+background_color+')';
 	}
 // print first quote from array
-printQuote();
+	printQuote();
 
 // setInterval
-window.setInterval(printQuote,3000);
+	window.setInterval(printQuote,30000);
