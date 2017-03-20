@@ -110,5 +110,5 @@ document.getElementById('loadQuote').addEventListener("click", printQuote, false
 // print first quote from array
 	printQuote();
 
-// setInterval
-	window.setInterval(printQuote,30000);
+// setInterval (10s, 30 was too long)
+	window.setInterval(printQuote,10000);
